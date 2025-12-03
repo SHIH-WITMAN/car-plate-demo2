@@ -7,7 +7,7 @@ import pandas as pd
 import os
 
 # --- 1. 初始化設定 ---
-st.set_page_config(page_title="進階車牌辨識系統", layout="centered")
+st.set_page_config(page_title="亞德客-台南廠員工車輛查詢系統", layout="centered")
 
 @st.cache_resource
 def load_reader():
